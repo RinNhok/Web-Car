@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/d9876ed7d9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="webcar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <title>WEBCAR</title>
+</head>
+<body>
+    <div class="header">
+        <div class="top_bar">
+            <div class="container">
+                <div class="top_bar_khung">
+                    <div class="top_bar_left">
+                        <img class="logo" src="img/logo.png" alt="logo">
+                    </div>
+                    <div class="top_bar_right">
+                        <div class="social">
+                            <a href="https://www.facebook.com/" target="_blank"><img class="item" src="img/icon fb.png" alt="FB"></a>
+                            <a href="#" target="_blank"><img class="item" src="img/icon tw.png" alt="TW"></a>
+                            <a href="#" target="_blank"><img class="item" src="img/icon gg.png" alt="GG"></a>
+                            <a href="https://www.apple.com/app-store/" target="_blank"><img class="item2" src="img/icon app.png" alt="APP"></a>
+                        </div>
+                        <div class="MENU">
+                            <a class="TC space" href="webcar.html">TRANG CHỦ</a>
+                            <span class="space">|</span>
+                            <a class="space" href="bookingcar.html">ĐẶT XE</a>
+                            <span class="space">|</span>
+                            <a class="space" href="price.html">BẢNG GIÁ</a>
+                            <span class="space">|</span>
+                            <a class="space" href="promotion.html">KHUYẾN MÃI</a>
+                            <span class="space">|</span>
+                            <a class="space" href="news.html">TIN TỨC</a>
+                            <span class="space">|</span>
+                            <a class="space" href="aboutus.html">GIỚI THIỆU</a>
+                            <span class="space">|</span>
+                            <a href="support.html">HỖ TRỢ</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="banner">
+            <img src="img/banner-06.png" alt="banner">
+        </div>
+
+    </div>
+    <div class="main">
+        <div class="bg_booking">
+            <div class="box_booking">
+                <div class="boxbooking_khung">
+                    <div class="nameboxcar">
+                        <p>ĐẶT XE</P>
+                    </div>
+                    <div class="diachi">
+                        <div class="label">
+                            <p>Địa chỉ đón khách</p>
+                        </div>
+                        <div class="form">
+                            <form action="DIACHI">
+                                <input type="text" value="Long Thành">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="diachi">
+                        <div class="label">
+                            <p>Địa chỉ trả khách</p>
+                        </div>
+                        <div class="form">
+                            <form action="DIACHI">
+                                <input type="text" value="Nhập địa chỉ bạn muốn đến">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="diachi">
+                        <div class="label">
+                            <p>Ngày khởi hành</p>
+                        </div>
+                        <div class="form2">
+                            <form action="Ngaykhoihanh">
+                                <input type="text" value="Chọn ngày khởi hành">
+                            </form>
+                            <div class="date">
+                                <img class="buttondate" src="img/icon_date.png" alt="buttondate">
+                            </div>
+                            <div class="tab_time">
+                                <img src="img/tab_time.png" alt="tab_time">
+                            </div>
+                        </div>
+                        <div class="label2">
+                            <p>Thời gian khởi hành</p>
+                        </div>
+                        <div class="form3">
+                            <form action="thoigiankhoihanh">
+                                <input type="text" value="Chọn thời gian khởi hành">
+                            </form>
+                            <div class="date">
+                                <img class="buttondate" src="img/icon_time.png" alt="buttontime">
+                            </div>
+                            <div class="tab_time tab_clock">
+                                <img src="img/tab_clock.png" alt="tab_clock">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="diachi">
+                        <div class="label">
+                            <p>Loại xe</p>
+                        </div>
+                        <div class="form2">
+                            <form action="Loaixe">
+                                <input type="text" value="Chọn loại xe">
+                            </form>
+                            <img class="buttondate" src="img/icon_car.png" alt="buttoncar">
+                        </div>
+                        <div class="chongoi">
+                            <form>
+                                <input class="margin" type="radio" id="html" name="fav_language" value="Siêu tiết kiệm">
+                                <label class="margin" for="html">Siêu tiết kiệm</label><br>
+                                <input class="margin" type="radio" id="css" name="fav_language" value="Cao cấp">
+                                <label class="margin" for="css">Cao cấp</label><br>
+                                <input class="margin" type="radio" id="javascript" name="fav_language" value="Đồng hành">
+                                <label class="margin" for="javascript">Đồng hành</label>
+                            </form> 
+                        </div>
+                    </div>
+                    <div class="diachi">
+                        <div class="label">
+                            <p>Mã khuyến mãi</p>
+                        </div>
+                        <div class="form2">
+                            <form action="Khuyenmai">
+                                <input type="text" value="Nhập mã khuyến mãi">
+                            </form>
+                            <img class="buttondate" src="img/icon_promo.png" alt="buttonpromo">
+                        </div>
+                    </div>
+                    <div class="nameboxcar2">
+                        <a href="bookingcar.html">ĐẶT XE</a>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+        <div class="bg_whyus">
+
+        </div>
+        <div class="banner_caiapp">
+            <img src="img/banner_cai_app.png" alt="bannercaiapp">
+        </div>
+    </div>
+</body>
+</html>
